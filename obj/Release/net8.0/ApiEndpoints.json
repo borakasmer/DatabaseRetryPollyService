@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "LinqToDBBlog.Controllers.LinqToDbController",
+    "Method": "Get",
+    "RelativePath": "LinqToDb/GetUserList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LinqToDBBlog.Models.CustomUserModel, LinqToDBBlog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LinqToDBBlog.Controllers.LinqToDbController",
+    "Method": "GetFromTableName",
+    "RelativePath": "LinqToDb/GetUserListFromTableName/{tableName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LinqToDBBlog.Models.CustomUserModel, LinqToDBBlog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LinqToDBBlog.Controllers.LinqToDbController",
+    "Method": "GetFromTableNameWithExtension",
+    "RelativePath": "LinqToDb/GetUserListFromTableNameWithExtension/{tableName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LinqToDBBlog.Models.CustomUserModel, LinqToDBBlog, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
